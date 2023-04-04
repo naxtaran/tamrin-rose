@@ -1,0 +1,182 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-size: 10px;
+        }
+
+        .rose {
+            background-color: #fff;
+            padding-left: 16px;
+            margin-bottom: 24px;
+        }
+
+        .work,
+        .kleur,
+        .logos,
+        .merry,
+        .aliza,
+        .dutch,
+        .louie-coffe,
+        .dog,
+        .loavies,
+        .instagram,
+        .contact,
+        .rose-icon {
+            display: none;
+        }
+
+        .rose-title {
+            font-size: 2.8rem;
+            font-weight: bold;
+        }
+
+        .name {
+            display: inline-block;
+            font-size: 1.6rem;
+            text-align: center;
+            background-color: #ddd;
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .name p {
+            font-size: 2.8rem;
+        }
+
+        .scroll {
+            font-size: 1.6rem;
+            color: #bbb;
+            margin-top: 64px;
+        }
+
+        .book-pic {
+            width: 100%;
+            margin: 16px 0;
+        }
+
+        .logo-pic {
+            width: 100%;
+        }
+
+        .power {
+            color: #bbb;
+            font-size: 2rem;
+            text-align: center;
+            margin: 16px 0;
+        }
+
+        .behance,
+        .linkedin,
+        .instagram {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+        }
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /*******************media 600 **************/
+        @media (min-width:600px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+            .rose {
+                padding: 24px;
+            }
+
+            .rose p {
+                font-size: 1.6rem;
+                padding: 5px;
+            }
+
+            .rose-name-pics {
+                display: flex;
+                justify-content: space-between;
+            }
+            .work,
+            .kleur,
+            .logos,
+            .merry,
+            .aliza,
+            .dutch,
+            .louie-coffe,
+            .dog,
+            .loavies,
+            .contact,
+            .behance,
+            .linkedin,
+            .rose-icon,
+            .instagram {
+                display: flex;
+            }
+
+            .rose-icon {
+                margin: 12px 0;
+            }
+            .contact {
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+            .pics-and-name {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+                width: 90%;
+            }
+            .name {
+                width: 75%;
+            }
+            .pics {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            .first-pics-row,
+            .second-pics-row,
+            .third-pics-row,
+            .fourth-pics-row {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-left: 25%;
+            }
+            .logo-pic,
+            .book-pic {
+                width: 50%;
+                height: 50%;
+            }
+        }
+        /*********************media 900 ***************/
+        @media (min-width:900px) {
+            .first-pics-row,
+            .second-pics-row,
+            .third-pics-row,
+            .fourth-pics-row,
+                {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding-left: 15%;
+            }
+            .logo-pic,
+            .book-pic,
+                {
+                width: 50%;
+                height: 50%;
+            }
+        }
